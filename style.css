@@ -1,0 +1,333 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+.bg-section {
+  background: url(images/1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10%;
+}
+.bg-section p {
+  color: #fff;
+  text-align: center;
+  margin: 5px;
+}
+.text {
+  margin-top: 8%;
+  font-size: 25px;
+  font-family: "Lobster", cursive;
+}
+
+.two {
+  font-size: 55px;
+}
+.three {
+  font-size: 25px;
+}
+.collapse {
+  margin-left: 63%;
+}
+.navbar {
+  box-shadow: 5px 5px 10px #888;
+}
+.nav-link {
+  margin-left: 2px;
+  letter-spacing: 1px;
+}
+
+.navbar-brand {
+  letter-spacing: 2px;
+}
+.about_heading {
+  font-family: "Lobster", cursive;
+  margin-top: 3%;
+  text-align: center;
+}
+.name {
+  font-family: "Lobster", cursive;
+}
+.person {
+  width: 25%;
+  margin-left: 12%;
+  border-radius: 10px;
+}
+.section {
+  margin-top: 30px;
+}
+.sec-two {
+  display: flex;
+}
+.section p {
+  margin-left: 30px;
+}
+.btn {
+  margin-top: 15px;
+}
+.four {
+  color: #28a745;
+  font-family: "Lobster", cursive;
+}
+.text_two h3 {
+  margin-left: 30px;
+}
+.boxes {
+  margin-top: 30px;
+  display: flex;
+  margin-left: 25%;
+}
+h2 {
+  font-family: "Lobster", cursive;
+  margin-top: 20px;
+}
+h3 {
+  font-family: "Lobster", cursive;
+}
+.box {
+  background: #28a745;
+  width: 30%;
+  margin-top: 50px;
+  /* margin: 30px; */
+  padding: 20px;
+  border-radius: 10px;
+  margin-left: 20px;
+}
+.contain {
+  display: flex;
+}
+.box:hover {
+  padding: 30px;
+  transition: 0.5s;
+}
+.text {
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+}
+.box i {
+  color: #fff;
+  margin-left: 100px;
+  font-size: 40px;
+}
+.box p {
+  color: #fff;
+  text-align: center;
+}
+/* skill */
+.skills {
+  margin-top: 8%;
+}
+.left {
+  margin-bottom: 20px;
+}
+.skills .skills-content .column {
+  width: calc(50% - 30px);
+}
+.skills .skills-content .left .text {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #000;
+}
+.skills .skills-content .left p {
+  text-align: justify;
+  margin-left: 50px;
+}
+.skills-content {
+  display: flex;
+}
+
+.skills .skills-content .left a {
+  display: inline-block;
+  background: #28a745;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 16px;
+  border-radius: 6px;
+  border: 2px solid #28a745;
+  transition: all 0.3s ease;
+  margin-left: 38%;
+}
+.skills .skills-content .left a:hover {
+  color: #28a745;
+  background: none;
+}
+.skills .skills-content .right .bars {
+  margin-bottom: 15px;
+}
+.skills .skills-content .right .info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.skills .skills-content .right span {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.skills .skills-content .right .line {
+  height: 5px;
+  width: 100%;
+  background: lightgrey;
+  position: relative;
+}
+.line::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  left: 0;
+
+  background: #28a745;
+}
+.skills-content .right .html::before {
+  width: 100%;
+}
+.skills-content .right .css::before {
+  width: 100%;
+}
+
+.skills-content .right .js::before {
+  width: 98%;
+}
+.skills-content .right .php::before {
+  width: 5%;
+}
+.skills-content .right .mysql::before {
+  width: 95%;
+}
+.contact h2 {
+  margin-top: 5%;
+  text-align: center;
+}
+.text_one {
+  margin-top: 3%;
+}
+.forms {
+  margin: 25px;
+  margin-left: 80px;
+  display: flex;
+}
+.iconic {
+  display: flex;
+  margin: 15px;
+}
+.head {
+  font-weight: bold;
+}
+.sub-title {
+  font-size: 15px;
+}
+.fas {
+  color: #28a745;
+  font-size: 25px;
+  margin-top: 5px;
+}
+
+.contact .right form .fields {
+  display: flex;
+}
+/* .right {
+  margin-bottom: 100px;
+  margin-top: 0px;
+} */
+.last {
+  margin-left: 20%;
+}
+.contact .right form .field,
+.contact .right form .fields .field {
+  height: 45px;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.contact .right form .textarea {
+  height: 80px;
+  width: 100%;
+}
+.contact .right form .name {
+  margin-right: 10px;
+}
+.contact .right form .field input,
+.contact .right form .textarea textarea {
+  height: 100%;
+  width: 100%;
+  border: 1px solid lightgrey;
+  border-radius: 6px;
+  outline: none;
+  padding: 0 15px;
+  font-size: 17px;
+  font-family: "Poppins", sans-serif;
+  transition: all 0.3s ease;
+}
+.contact .right form .field input:focus,
+.contact .right form .textarea textarea:focus {
+  border-color: #b3b3b3;
+}
+.contact .right form .textarea textarea {
+  padding-top: 10px;
+  resize: none;
+}
+.contact .right form .button-area {
+  display: flex;
+  align-items: center;
+}
+.right form .button-area button {
+  color: #fff;
+  display: block;
+  width: 160px !important;
+  height: 45px;
+  outline: none;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 6px;
+  cursor: pointer;
+  flex-wrap: nowrap;
+  background: #28a745;
+  border: 2px solid #28a745;
+  transition: all 0.3s ease;
+}
+.right form .button-area button:hover {
+  color: #28a745;
+  background: none;
+}
+.foot {
+  width: 100%;
+  height: 20%;
+  background: #28a745;
+}
+.text_ones {
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+@media (max-width: 690px) {
+  .person {
+    width: 50%;
+    height: 40%;
+  }
+  .box {
+    display: none;
+  }
+}
+
+@media (max-width: 800px) {
+  .person {
+    width: 50%;
+    height: 40%;
+  }
+  .box {
+    background: #28a745;
+    width: 30%;
+    margin-top: 50px;
+    /* margin: 30px; */
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 20px;
+  }
+}
